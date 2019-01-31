@@ -36,3 +36,25 @@ $$\vec{v} + \vec{w} = \begin{bmatrix}
 1+3\\\\
 2+4\\\\
 \end{bmatrix}$$
+
+
+At the start of the chapter, Professor Strang states that "You can't add apples and oranges." This makes sense because we can only add objects that are the same.
+
+※ Note: The algebraic commutative property of $a + b = b + a$ also applies to vectors.
+
+
+### Scalar Multiplication
+
+Scalar multiplication is also simple. You're just multiplying ("broadcasting") the scalar to each component of the vector. If we take the vector $\vec{v}$ from earlier,
+
+$$
+\begin{align}
+\vec{v} & = 2\ \times\ \begin{bmatrix}
+1\\\\
+2\\\\
+\end(bmatrix)
+& = \begin{bmatrix}
+2\\\\
+4\\\\
+\end{bmatrix}
+$$
