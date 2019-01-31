@@ -20,7 +20,7 @@ _The first chapter attempts to give the reader a basic understanding of the basi
 
 Vector addition is simple. Just think of it as adding the same coordinates with each other. For example,
 
-$v = \begin{bmatrix}
+$\vec{v} = \begin{bmatrix}
 1 & x & x^2 \\\\
 1 & y & y^2 \\\\
 1 & z & z^2 \\\\
