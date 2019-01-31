@@ -23,4 +23,16 @@ Vector addition is simple. Just think of it as adding the same coordinates with 
 $$\vec{v} = \begin{bmatrix}
 1\\\\
 2\\\\
-\end{bmatrix}$$ and $$\vec{w} = \begin{bmatrix}3&\\\\4 &\\\\\end{bmatrix}$$
+\end{bmatrix}$$
+and
+$$\vec{w} = \begin{bmatrix}
+3\\\\
+4\\\\
+\end{bmatrix}$$
+
+The result of adding these two vectors would be
+
+$$\vec{v} + \vec{w} = \begin{bmatrix}
+1+3\\\\
+2+4\\\\
+\end{bmatrix}$$
