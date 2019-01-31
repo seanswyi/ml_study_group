@@ -57,4 +57,5 @@ $$
 2\\\\
 4\\\\
 \end{bmatrix}
+\end{align}
 $$
