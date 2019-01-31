@@ -52,7 +52,7 @@ $$
 \vec{v} & = 2\ \times\ \begin{bmatrix}
 1\\\\
 2\\\\
-\end(bmatrix)
+\end{bmatrix}
 & = \begin{bmatrix}
 2\\\\
 4\\\\
