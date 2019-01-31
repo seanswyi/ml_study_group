@@ -20,8 +20,8 @@ _The first chapter attempts to give the reader a basic understanding of the basi
 
 Vector addition is simple. Just think of it as adding the same coordinates with each other. For example,
 
-\begin{bmatrix}
+$$\begin{bmatrix}
 1 & 2 & 2 & \\ 
 2 & 3 & 4 & \\ 
 4 & 4 & 2 &
-\end{bmatrix}
+\end{bmatrix}$$
