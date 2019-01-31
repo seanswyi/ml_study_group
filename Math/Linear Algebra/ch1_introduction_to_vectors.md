@@ -49,11 +49,12 @@ Scalar multiplication is also simple. You're just multiplying ("broadcasting") t
 
 $$
 \begin{align}
-\vec{v} & = 2\ \times\ \begin{bmatrix}
+\vec{v} & = 2 \times \begin{bmatrix}
 1\\\\
 2\\\\
-\end{bmatrix}
-& = \begin{bmatrix}
+\end{bmatrix} \\\\
+& = 
+\begin{bmatrix}
 2\\\\
 4\\\\
 \end{bmatrix}
