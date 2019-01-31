@@ -11,7 +11,7 @@ _The first chapter attempts to give the reader a basic understanding of the basi
 ## 1.1 Vectors and Linear Combinations
 
 ### Video material
-  *[3Blue1Brown - Vectors, what even are they? (Essentials of Linear Algebra Ch. 1)](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=1)
+  * [3Blue1Brown - Vectors, what even are they? (Essentials of Linear Algebra Ch. 1)](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=1)
 
-  *[3Blue1Brown - Linear combination, span, and basis vectors. (Essentials of Linear Algebra Ch. 2)](https://www.youtube.com/watch?v=k7RM-ot2NWY&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=2)
+  * [3Blue1Brown - Linear combination, span, and basis vectors. (Essentials of Linear Algebra Ch. 2)](https://www.youtube.com/watch?v=k7RM-ot2NWY&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=2)
 
