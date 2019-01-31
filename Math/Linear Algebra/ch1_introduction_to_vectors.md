@@ -20,4 +20,4 @@ _The first chapter attempts to give the reader a basic understanding of the basi
 
 Vector addition is simple. Just think of it as adding the same coordinates with each other. For example,
 
-$\left[1 \\ 2\right]
+$\left[1 \\ 2\right]$
