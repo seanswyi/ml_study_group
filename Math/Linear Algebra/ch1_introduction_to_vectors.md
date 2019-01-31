@@ -60,3 +60,10 @@ $$
 \end{bmatrix}
 \end{align}
 $$
+
+
+### Linear Combinations
+
+By definition, a _**linear combination**_ is combining addition and scalar multiplication.
+
+In simpler terms, the sum of the vectors multiplied by any scalar(s) is called a linear combination. $c\vec{v} + d\vec{w}$ is a linear combination of the vectors $\vec{v}$ and $\vec{w}$.
