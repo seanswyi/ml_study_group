@@ -18,10 +18,9 @@ _The first chapter attempts to give the reader a basic understanding of the basi
 
 ### Vector Addition
 
-Vector addition is simple. Just think of it as adding the same coordinates with each other. For example,
+Vector addition is simple. Just think of it as adding the same coordinates with each other. For example let's say we have two vectors,
 
 $\vec{v} = \begin{bmatrix}
-1 & x & x^2 \\\\
-1 & y & y^2 \\\\
-1 & z & z^2 \\\\
-\end{bmatrix}$
+1 & \\\\
+2 & \\\\
+\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}3 & \\\\ 4 & \\\\\end{bmatrix}$
