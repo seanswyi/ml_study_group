@@ -73,3 +73,9 @@ _**§ The three notions of vector addition, scalar multiplication, and linear co
 
 ### Vectors in Three Dimensions
 
+Vectors in three dimensions are analogous to vectors in two dimensions. The only difference is that they have an extra component to account for the third dimension.
+
+
+### The Important Questions
+
+This section addresses some important geometric aspects of linear algebras.
