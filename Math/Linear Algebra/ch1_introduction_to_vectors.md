@@ -68,7 +68,7 @@ By definition, a _**linear combination**_ is combining addition and scalar multi
 
 In simpler terms, the sum of the vectors multiplied by any scalar(s) is called a linear combination. $c\vec{v} + d\vec{w}$ is a linear combination of the vectors $\vec{v}$ and $\vec{w}$.
 
-**§ The three notions of vector addition, scalar multiplication, and linear combinations are central to linear algebra. We'll get into more detail later and why they're so important.**
+_**§ The three notions of vector addition, scalar multiplication, and linear combinations are central to linear algebra. We'll get into more detail later and why they're so important.**_
 
 
 ### Vectors in Three Dimensions
