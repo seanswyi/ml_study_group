@@ -128,6 +128,7 @@ $$c\vec{u} =
 \end{Bmatrix}
 $$
 
+Let's write some code to visualize these results. As stated earlier, it's convenient if we think of vectors as essentially _**arrows that point to a specific point in space**_. The $x$-values would be the first components of each vector, and the $y$-values are the second. The code to visualize this is as follows:
 
 ```Python
 import matplotlib.pyplot as plt # Library that allows Matlab-like plotting.
@@ -145,3 +146,7 @@ plt.show() # Display the chart we've created.
 This code produces the following image:
 
 ![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/seaborn_first_plot.png)
+
+It's not difficult to see that if we were to take every single real value of $c$ and multiplied it to the vector $\vec{u}$, we would eventually get a straight line.
+
+The plots for the second and third questions are a bit harder to visualize (I'm actually not sure if it's possible to simply visualize it without actual animations), so I'll leave it out but if you feel the need for visual stimulus then I highly recommend watching the 3Blue1Brown videos posted at the start.
