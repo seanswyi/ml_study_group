@@ -95,7 +95,7 @@ $$\vec{u} =
 \end{bmatrix}
 $$
 
-Now, let's say that the values for the scalar $c$ in $c\vec{u}$ are $0$, $0.5$, $1$, $1.5$, $2$, and $2.5$. In other words, $c = \{0, \frac{1}{2}, 1, \frac{3}{2}, 2 \}$.
+Now, let's say that the values for the scalar $c$ in $c\vec{u}$ are $0$, $0.5$, $1$, $1.5$, $2$, and $2.5$. In other words, $c = \\{0, \frac{1}{2}, 1, \frac{3}{2}, 2 \\}$.
 
 The linear combinations, then, of $c\vec{u}$ would be:
 
@@ -105,10 +105,10 @@ $$c\vec{u} =
   0\\\\
   0\\\\
 \end{bmatrix},\ 
-\begin{matrix}
+\begin{bmatrix}
   0.5\\\\
   1\\\\
-\end{matrix},\ 
+\end{bmatrix},\ 
 \begin{bmatrix}
   1\\\\
   2\\\\
