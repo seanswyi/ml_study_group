@@ -79,3 +79,5 @@ Vectors in three dimensions are analogous to vectors in two dimensions. The only
 ### The Important Questions
 
 This section addresses some important geometric aspects of linear algebras.
+
+1. What is the picture of _all_ combinations on $c$**$u$**?
