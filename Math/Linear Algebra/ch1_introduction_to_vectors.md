@@ -144,4 +144,4 @@ plt.show() # Display the chart we've created.
 
 This code produces the following image:
 
-![Vector $\vec{u}$ linear combinations](
+![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/seaborn_first_plot.png)
