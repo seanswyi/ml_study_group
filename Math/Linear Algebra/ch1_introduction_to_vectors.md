@@ -95,6 +95,39 @@ $$\vec{u} =
 \end{bmatrix}
 $$
 
+Now, let's say that the values for the scalar $c$ in $c\vec{u}$ are $0$, $\frac{1}{2}$, $1$, $\frac{3}{2}$, and $2$. In other words, $c = \left{0, \frac{1}{2}, 1, \frac{3}{2}, 2 \right}$.
+
+The linear combinations, then, of $c\vec{u}$ would be:
+
+$$c\vec{u} =
+\begin{Bmatrix}
+\begin{bmatrix}
+  0\\\\0\\\\
+\end{bmatrix},\ 
+\begin{matrix}
+  \frac{1}{2}\\\\
+  1\\\\
+\end{matrix},\ 
+\begin{bmatrix}
+  1\\\\
+  2\\\\
+\end{bmatrix},\ 
+\begin{bmatrix}
+  \frac{3}{2}\\\\
+  3\\\\
+\end{bmatrix},\ 
+\begin{bmatrix}
+  2\\\\
+  4\\\\
+\end{bmatrix},\ 
+\begin{bmatrix}
+  \frac{5}{2}\\\\
+  5\\\\
+\end{bmatrix}
+\end{Bmatrix}
+$$
+
+
 ```Python
 import matplotlib.pyplot as plt
 import numpy as np
