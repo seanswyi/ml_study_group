@@ -83,3 +83,18 @@ This section addresses some important geometric aspects of linear algebras.
 1. What is the picture of _all_ combinations on $c\vec{u}$?
 2. What is the picture of _all_ combinations $c\vec{u} + d\vec{v}$?
 3. What is the picture of _all_ combinations $c\vec{u} + d\vec{v} + e\vec{w}$?
+
+The answers to these questions is relatively simple and even intuitive if you put your focus on the fact that a vector is essentially _pointing to a certain point_.
+
+This means that if we have a vector $\vec{u}$ that is pointing to a certain point in space, then the linear combinations of all of the different points that make up $c\vec{u}$ will essentially be a line. For example, let's say that the vector $\vec{u}$ is as follows:
+
+$$\vec{u} =
+\begin{bmatrix}
+1\\\\
+2\\\\
+\end{bmatrix}
+$$
+
+```Python
+import matplotlib.pyplot as plt
+import numpy as np
