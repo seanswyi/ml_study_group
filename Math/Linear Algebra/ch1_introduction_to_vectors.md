@@ -130,5 +130,18 @@ $$
 
 
 ```Python
-import matplotlib.pyplot as plt
-import numpy as np
+import matplotlib.pyplot as plt # Library that allows Matlab-like plotting.
+import numpy as np # Library used for scientific computing.
+import seaborn as sns # Library that is also used for making "prettier" Matlab-like plots. Built on top of matplotlib.
+
+
+x = np.arange(0, 3, 0.5) # From 0 to 3, with step sizes of 0.5 in between.
+y = np.array([(num * 2) for num in x]) # List comprehension for making list with each element twice that of x.
+
+sns.scatterplot(x, y) # Create a scatterplot with the previous x as the x-values, and y for y-values.
+plt.show() # Display the chart we've created.
+```
+
+This code produces the following image:
+
+![Vector $\vec{u}$ linear combinations](
