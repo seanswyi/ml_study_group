@@ -80,4 +80,6 @@ Vectors in three dimensions are analogous to vectors in two dimensions. The only
 
 This section addresses some important geometric aspects of linear algebras.
 
-1. What is the picture of _all_ combinations on $c$**$u$**?
+1. What is the picture of _all_ combinations on $c\vec{u}$?
+2. What is the picture of _all_ combinations $c\vec{u} + d\vec{v}$?
+3. What is the picture of _all_ combinations $c\vec{u} + d\vec{v} + e\vec{w}$?
