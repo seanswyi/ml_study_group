@@ -51,3 +51,9 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 <br><br>
 
 #### 6. Every combination of $\vec{v} = (1, -2, 1)$ and $\vec{w} = (0, 1, -1)$ has components that add to *_____*. Find $c$ and $d$ so that $c\vec{v} + d\vec{w} = (3, 3, -6)$.
+
+  * _**Solution**_:
+    * *_____* = $(0, 0, 0)$
+      * $c\vec{v} + d\vec{w} = \begin{bmatrix}c\\\\-2c+d\\\\c-d\\\\\end{bmatrix}$
+      * $c + (-2c + d) + (c - d) = 0$
+    * $c = 3$ and $d = 9$.
