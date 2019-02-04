@@ -131,21 +131,26 @@ $$
 Let's write some code to visualize these results. As stated earlier, it's convenient if we think of vectors as essentially _**arrows that point to a specific point in space**_. The $x$-values would be the first components of each vector, and the $y$-values are the second. The code to visualize this is as follows:
 
 ```Python
-import matplotlib.pyplot as plt # Library that allows Matlab-like plotting.
-import numpy as np # Library used for scientific computing.
-import seaborn as sns # Library that is also used for making "prettier" Matlab-like plots. Built on top of matplotlib.
+import matplotlib.pyplot as plt
+import numpy as np
 
 
-x = np.arange(0, 3, 0.5) # From 0 to 3, with step sizes of 0.5 in between.
-y = np.array([(num * 2) for num in x]) # List comprehension for making list with each element twice that of x.
+x = np.arange(0, 3, 0.5)
+y = np.array([(num * 2) for num in x])
+zeros = (np.zeros(x.shape[0]), np.zeros(x.shape[0]))
+colors = ['r', 'b', 'g', 'c', 'm', 'y']
 
-sns.scatterplot(x, y) # Create a scatterplot with the previous x as the x-values, and y for y-values.
-plt.show() # Display the chart we've created.
+plt.quiver(*zeros, x, y, color=colors, angles='xy', scale_units='xy', scale=1)
+plt.xlim(-6, 6)
+plt.ylim(-6, 6)
+plt.grid()
+
+plt.show()
 ```
 
 This code produces the following image:
 
-![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/seaborn_first_plot.png)
+![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/vector_plots.png?raw=true)
 
 It's not difficult to see that if we were to take every single real value of $c$ and multiplied it to the vector $\vec{u}$, we would eventually get a straight line.
 
