@@ -17,3 +17,11 @@
   * _**Solution**_:
   
   ![Vector Plot](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_2.png?raw=true)
+
+<br><br>
+
+3. If $\vec{v} + \vec{w} = \begin{bmatrix}5\\\\1\\\\\end{bmatrix}$ and $\vec{v} - \vec{w} = \begin{bmatrix}1\\\\5\\\\\end{bmatrix}$, compute and draw $\vec{v}$ and $\vec{w}$.
+  * _**Solution**_:
+    * $\vec{v} = \begin{bmatrix}3\\\\3\\\\\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-1\\\\-5\\\\\end{bmatrix}$.
+    
+    
