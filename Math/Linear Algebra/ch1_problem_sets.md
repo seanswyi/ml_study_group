@@ -11,6 +11,6 @@
       * (b) **plane** $\rightarrow$ They are linearly independent and therefore the second vectors adds new dimensionality.
       * (c) $\Bbb{R^3}$ $\rightarrow$ All three are linearly independent and therefore add a total of three axes.
       
-<br>
+<br><br>
 
 2. Draw $\vec{v} = \begin{bmatrix}4\\\\1\\\\\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-2\\\\2\\\\\end{bmatrix}$ and $\vec{v} + \vec{w}$ and $\vec{v} - \vec{w}$ in a single $xy$ plane.
