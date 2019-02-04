@@ -32,3 +32,6 @@
 <br><br>
 
 #### 4. From $\vec{v} = \begin{bmatrix}2\\\\1\\\\\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}1\\\\2\\\\\end{bmatrix}$, find the components of $3\vec{v} + \vec{w}$ and $c\vec{v} + d\vec{w}$.
+
+  * _**Solution**_:
+    * $3\vec{v} + \vec{w} = \begin{bmatrix}6 + 1\\\\3 + 2\\\\\end{bmatrix} = \begin{bmatrix}7\\\\5\\\\\end{bmatrix}$
