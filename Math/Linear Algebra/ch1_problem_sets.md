@@ -68,3 +68,15 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     * Graph:
     
     ![1.1 7](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_7.png?raw=true)
+
+<br><br>
+
+#### 8. The parallelogram in Figure 1.1 has diagnoal $\vec{v} + \vec{w}$. What is its other diagonal? What is the sum of the two diagonals? Draw that vector sum.
+
+  * _**Solution**_
+    * The other diagonal is $\vec{v} - \vec{w}$.
+    * $(\vec{v} + \vec{w}) + (\vec{v} - \vec{w}) = 2\vec{v} = \begin{bmatrix}8\\\\2\end{bmatrix}$
+    
+    * Graph
+    
+    ![1-1 8](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_8.png?raw=true)
