@@ -41,8 +41,9 @@
 
 #### 5. Compute $\vec{u} + \vec{v} + \vec{w}$ and $2\vec{u} + 2\vec{v} + \vec{w}$. How do you know $\vec{u}$, $\vec{v}$, and $\vec{w}$ lie in a plane?
 
-$$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ $\vec{v} = \begin{bmatrix}-3\\\\1\\\\-2\\\\\end{bmatrix},\ $\vec{w} = \begin{bmatrix}2\\\\-3\\\\-1\\\\\end{bmatrix}$$
+$$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatrix}-3\\\\1\\\\-2\\\\\end{bmatrix},\ \vec{w} = \begin{bmatrix}2\\\\-3\\\\-1\\\\\end{bmatrix}$$
 
   * _**Solution**_:
     * $\vec{u} + \vec{v} + \vec{w} = \begin{bmatrix}1-3+2\\\\2+1-3\\\\3-2-1\\\\\end{bmatrix} = \begin{bmatrix}0\\\\0\\\\0\\\\\end{bmatrix}$.
     * $2\vec{u} + 2\vec{v} + \vec{w} = \begin{bmatrix}2-6+2\\\\4+2-3\\\\6-4-1\\\\\end{bmatrix} = \begin{bmatrix}-2\\\\3\\\\1\\\\\end{bmatrix} = -\vec{w}$
+    * We can see that the vector $\vec{w}$ can be expressed as a linear combination of the other two vectors in the given vector set, $\vec{u}$ and $\vec{v}$. This implies that there are only two axes we can work with because $\vec{u}$ and $\vec{v}$ account for two axes, but $\vec{w}$ lies on one of those axes.
