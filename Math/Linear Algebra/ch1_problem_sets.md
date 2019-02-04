@@ -80,3 +80,10 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     * Graph
     
     ![1-1 8](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_8.png?raw=true)
+
+<br><br>
+
+#### 9. If three corners of a parallelogram are $(1, 1)$, $(4, 2)$, and $(1, 3)$, what are all three of the possible fourth corners? Draw two of them.
+
+  * _**Solution**_
+    * The three possible points for the fourth corner are: $(-2, 2),\ (4, 0),\ (4, 4)$.
