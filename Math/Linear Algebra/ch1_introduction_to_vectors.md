@@ -158,5 +158,5 @@ The plots for the second and third questions are a bit harder to visualize (I'm 
 
 ### Problem Set 1.1
 
-1. Describe geometrically (line, plane, or all of $\Bbb{R^3$}) all linear combinations of:
-  * (a) $\begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix}$ and $\begin{bmatrix}3\\\\6\\\\9\\\\end{bmatrix}$
+1. Describe geometrically (line, plane, or all of $\Bbb{R^3}$) all linear combinations of:
+  * (a) $\begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix}$ and $\begin{bmatrix}3\\\\6\\\\9\\\\\end{bmatrix}$
