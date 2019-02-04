@@ -41,7 +41,7 @@
 
 #### 5. Compute $\vec{u} + \vec{v} + \vec{w}$ and $2\vec{u} + 2\vec{v} + \vec{w}$. How do you know $\vec{u}$, $\vec{v}$, and $\vec{w}$ lie in a plane?
 
-$$$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix}$, $\vec{v} = \begin{bmatrix}-3\\\\1\\\\-2\\\\\end{bmatrix}$, and $\vec{w} = \begin{bmatrix}2\\\\-3\\\\-1\\\\\end{bmatrix}$$$
+$$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix}$,\ $\vec{v} = \begin{bmatrix}-3\\\\1\\\\-2\\\\\end{bmatrix}$,\ $\vec{w} = \begin{bmatrix}2\\\\-3\\\\-1\\\\\end{bmatrix}$$
 
   * _**Solution**_:
-    * First of all, $\vec{u} + \vec{v} + \vec{w} = \begin{bmatrix}
+    * First of all, $\vec{u} + \vec{v} + \vec{w} = \begin{bmatrix}1-3+2\\\\2+1-3\\\\3-2-1\\\\\end{bmatrix} = \begin{bmatrix}0\\\\0\\\\0\\\\\end{bmatrix}$.
