@@ -35,4 +35,4 @@
 
   * _**Solution**_:
     * $3\vec{v} + \vec{w} = \begin{bmatrix}6 + 1\\\\3 + 2\\\\\end{bmatrix} = \begin{bmatrix}7\\\\5\\\\\end{bmatrix}$ and $c\vec{v} + d\vec{w} = \begin{bmatrix}2c + d\\\\c + 2d\\\\\end{bmatrix}$.
-    * Components are $\{7,\ 5,\ 2c,\ 2d \}$.
+    * Components are $\lbrace 7,\ 5,\ 2c,\ 2d \rbrace$.
