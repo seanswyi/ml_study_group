@@ -63,7 +63,7 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 #### 7. In the $xy$ plane mark all nine of these linaer combinations: $c\begin{bmatrix}2\\\\1\\\\\end{bmatrix} + d\begin{bmatrix}0\\\\1\\\\\end{bmatrix}$ with $c = 0,\ 1,\ 2$ and $d = 0,\ 1,\ 2$.
 
   * _**Solution**_:
-    * linear_combinations = $\begin{Bmatrix} \begin{bmatrix}0\\\\0\\\\\end{bmatrix},\ \begin{bmatrix}0\\\\1\\\\\end{bmatrix},\ \begin{bmatrix}0\\\\2\\\\\end{bmatrix},\ \begin{bmatrix}2\\\\1\\\\\end{bmatrix},\ \begin{bmatrix}4\\\\2\\\\\end{bmatrix},\ \begin{bmatrix}2\\\\2\\\\\end{bmatrix},\ \begin{bmatrix}2\\\\3\\\\\end{bmatrix},\ \begin{bmatrix}4\\\\3\\\\\end{bmatrix},\ \begin{bmatrix}4\\\\6\\\\\end{bmatrix}\end{Bmatrix}$
+    * linear_combinations = $\begin{Bmatrix} \begin{bmatrix}0\\\\0\\\\\end{bmatrix},\ \begin{bmatrix}0\\\\1\\\\\end{bmatrix},\ \begin{bmatrix}0\\\\2\\\\\end{bmatrix},\ \begin{bmatrix}2\\\\1\\\\\end{bmatrix},\ \begin{bmatrix}4\\\\2\\\\\end{bmatrix},\ \begin{bmatrix}2\\\\2\\\\\end{bmatrix},\ \begin{bmatrix}2\\\\3\\\\\end{bmatrix},\ \begin{bmatrix}4\\\\3\\\\\end{bmatrix},\ \begin{bmatrix}4\\\\6\end{bmatrix}\end{Bmatrix}$
     
     * Graph:
     
