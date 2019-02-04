@@ -9,5 +9,7 @@
 
 > Solutions:
 > (a) **line** $\rightarrow$ They are in each others spans (i.e. they are linearly dependent).
+
 > (b) **plane** $\rightarrow$ They are linearly independent and therefore the second vectors adds new dimensionality.
+
 > (c) $\Bbb{R^3}$ $\rightarrow$ All three are linearly independent and therefore add a total of three axes.
