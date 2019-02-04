@@ -14,3 +14,5 @@
 <br><br>
 
 2. Draw $\vec{v} = \begin{bmatrix}4\\\\1\\\\\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-2\\\\2\\\\\end{bmatrix}$ and $\vec{v} + \vec{w}$ and $\vec{v} - \vec{w}$ in a single $xy$ plane.
+  * _**Solution**_:
+  ![Vector Plot](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_2.png?raw=true)
