@@ -90,7 +90,25 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 
 <br><br>
 
-#### 10. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
+#### 10. Which point of the cube is $\vec{i} + \vec{j}$? Which point is the vector sum of $\vec{i} = (1,\ 0,\ 0)$ and $\vec{j} = (0,\ 1,\ 0)$ and $\vec{k} = (0,\ 0,\ 1)$? Describe all points $(x,\ y,\ z)$ in the cube.
+
+  * _**Solution**_
+    * $\vec{i} + \vec{j} = (1,\ 1,\ 0) \to $ This is the bottom right corner that is "closer to us."
+    * $\vec{j} + \vec{k} = (0,\ 1,\ 1) \to $ This is the top right corner that is "farther away from us."
+    * All points in the cube $(x,\ y,\ z)$ are the linear combinations of vectors $\vec{i}$, $\vec{j}$, and $\vec{k}$.
+    
+<br><br>
+
+#### 11. Four corners of the cube are $(0,\ 0,\ 0)$, $(1,\ 0,\ 0)$, $(0,\ 1,\ 0)$, and $(0,\ 0,\ 1)$. What are the other four corners? Find the coordinates of the center point of the cube. The center points of the six faces are *____*.
+
+  * _**Solution**_:
+    * The other four points of the cube are $(1,\ 1,\ 0)$, $(1,\ 0,\ 1)$, $(0,\ 1,\ 1)$, and $(1,\ 1,\ 1)$.
+      * $\begin{cases}\vec{i} + \vec{j}\\\\\vec{i} + \vec{k}\\\\\vec{j} + \vec{k}\\\\\vec{i} + \vec{j} + \vec{k}\end{cases}$
+    * The coordinates of the center point of the cube is $(\frac{1}{2},\ \frac{1}{2},\ \frac{1}{2})$.
+      * $\frac{1}{2}\vec{i} + \frac{1}{2}\vec{j} + \frac{1}{2}\vec{k}$
+    * The center points of the six faces are $(1,\ \frac{1}{2},\ \frac{1}{2})$, $(\frac{1}{2},\ \frac{1}{2},\ 0)$, $(0,\ \frac{1}{2},\ \frac{1}{2})$, $(\frac{1}{2},\ \frac{1}{2},\ 1)$, $(\frac{1}{2},\ 0,\ \frac{1}{2})$, $(\frac{1}{2},\ 1,\ \frac{1}{2})$.
+
+#### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
   * _**Solution**_
     * *_____* : 6 unknown numbers
