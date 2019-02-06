@@ -127,7 +127,7 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
   * _**Solution**_:
     * (a) The sum of the vectors is the zero vector $\mathbf{0}$. The reason si because they all cancel each other out with their opposite vectors.
     * (b) The opposite vector of 2:00 is 8:00. If we remove 2:00, then there is nothing to cancel out the 8:00 vector. Therefore, we only have the 8:00 left after summing all the 11 vectors.
-    * (c) On a clock, the angle between 2:00 and 3:00 is approximately $30^\text{o}$ (or $\frac{\pi}{6}$. The components of the vector pointing to 2:00 are $\sin({\frac{\pi}{6}) = \frac{1}{2}$ and $\cos({\frac{\pi}{6}}) = \frac{\sqrt{3}}{2}}$.
+    * (c) On a clock, the angle between 2:00 and 3:00 is approximately $30^\text{o}$ (or $\frac{\pi}{6}$. The components of the vector pointing to 2:00 are $\sin({\frac{\pi}{6}) = \frac{1}{2}$ \text{and} $\cos({\frac{\pi}{6}}) = \frac{\sqrt{3}}{2}}$.
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
