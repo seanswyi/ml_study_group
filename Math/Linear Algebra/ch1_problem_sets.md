@@ -107,6 +107,22 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     * The coordinates of the center point of the cube is $(\frac{1}{2},\ \frac{1}{2},\ \frac{1}{2})$.
       * $\frac{1}{2}\vec{i} + \frac{1}{2}\vec{j} + \frac{1}{2}\vec{k}$
     * The center points of the six faces are $(1,\ \frac{1}{2},\ \frac{1}{2})$, $(\frac{1}{2},\ \frac{1}{2},\ 0)$, $(0,\ \frac{1}{2},\ \frac{1}{2})$, $(\frac{1}{2},\ \frac{1}{2},\ 1)$, $(\frac{1}{2},\ 0,\ \frac{1}{2})$, $(\frac{1}{2},\ 1,\ \frac{1}{2})$.
+    
+<br><br>
+
+#### 12. How many corners does a cube have in 4 dimensions? How many 3D faces? How many edges? A typical corner is $(0,\ 0,\ 0,\ 0)$. A typical edge goes to $(0,\ 1,\ 0,\ 0)$.
+
+  * _**Solution**_:
+    * This isn't really a linear algebra problem, but more of a combinatorics problem. Anyway,
+      * 16 corners, 8 cells, and 24 edges.
+      
+<br><br>
+
+#### 13.
+
+  #### (a) What is the sum $V$ of the twelve vectors that go from the center of a clock to the hours 1:00, 2:00, ... , 12:00?
+  #### (b) If the 2:00 vector is removed, why do the 11 remaining vectors add to 8:00?
+  #### (c) What are the components of that 2:00 vector $\vec{v} = (\cos{\theta},\ \sin(\theta})$?
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
