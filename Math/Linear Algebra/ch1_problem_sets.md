@@ -94,4 +94,5 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 
   * _**Solution**_
     * *_____* : 6 unknown numbers
-    * $\vec{v} = \begin{bmatrix}v_1\\\\v_2\\\\v_3\\\\\end{bmatrix}\ \text{and}\ \vec{w} = \begin{bmatrix}w_1\\\\w_2\\\\w_3\\\\\end{bmatrix}$
+      * $\vec{v} = \begin{bmatrix}v_1\\\\v_2\\\\v_3\\\\\end{bmatrix}\ \text{and}\ \vec{w} = \begin{bmatrix}w_1\\\\w_2\\\\w_3\\\\\end{bmatrix}$
+    * $\begin{cases}v_1 + w_1 = 4\\\\v_2 + w_2 = 5\\\\v_3 + w_3 = 6\\\\v_1 - w_1 = 2\\\\v_2 - w_2 = 5\\\\v_3 - w_3 = 8\\\\\end{cases}$
