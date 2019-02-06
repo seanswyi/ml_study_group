@@ -87,3 +87,11 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 
   * _**Solution**_
     * The three possible points for the fourth corner are: $(-2, 2),\ (4, 0),\ (4, 4)$.
+
+<br><br>
+
+#### 10. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
+
+  * _**Solution**_
+    * *_____* : 6 unknown numbers
+    * $\vec{v} = \begin{bmatrix}v_1\\\\v_2\\\\v_3\\\\\end{bmatrix}\ \text{and}\ \vec{w} = \begin{bmatrix}w_1\\\\w_2\\\\w_3\\\\\end{bmatrix}$
