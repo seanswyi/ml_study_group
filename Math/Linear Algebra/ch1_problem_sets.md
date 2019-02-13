@@ -130,6 +130,18 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     * (c) On a clock, the angle between 2:00 and 3:00 is approximately $30^\text{o}$ (or $\frac{\pi}{6}$. The components of the vector pointing to 2:00 are $\sin({\frac{\pi}{6}) = \frac{1}{2}, \cos({\frac{\pi}{6}}) = \frac{\sqrt{3}}{2}}$.
       * $\vec{v} = \begin{bmatrix}\frac{\sqrt{3}}{2}\\\\\frac{1}{2}\end{bmatrix}$
 
+<br><br>
+
+#### 14. Suppose the twelve vectors start from 6:00 at the bottom instead of $(0,\ 0)$ at the center. The vector to 12:00 is doubled to $(0,\ 2)$. Add the new twelve vectors.
+
+  * Just move all arrows down, but stretch the upmost-pointing vector (i.e. 12:00 vector) twice as long (so that its tip is unchanged).
+  
+<br><br>
+
+#### 15. Figure 1.5a shows $\frac{1}{2}\vec{v} + \frac{1}{2}\vec{w}$. Mark the points $\frac{3}{4}\vec{v} + \frac{1}{4}\vec{w}$ and $\frac{1}{4}\vec{v} + \frac{1}{4}\vec{w}$.
+
+
+
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
   * _**Solution**_
