@@ -148,7 +148,7 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
       * magenta dot $\rightarrow$ $u$
       * cyan dot $\rightarrow$ $\frac{3}{4}\vec{v} + \frac{1}{4}\vec{w}$
       * green dot $\rightarrow$ $\frac{1}{4}\vec{v} + \frac{1}{4}\vec{w}$
-      * yellow dot $\rightarrow$ $\vec{v} _ \vec{w}$
+      * yellow dot $\rightarrow$ $\vec{v} + \vec{w}$
     
     ![1-1-15](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_15.png?raw=true)
 
