@@ -134,13 +134,23 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 
 #### 14. Suppose the twelve vectors start from 6:00 at the bottom instead of $(0,\ 0)$ at the center. The vector to 12:00 is doubled to $(0,\ 2)$. Add the new twelve vectors.
 
-  * Just move all arrows down, but stretch the upmost-pointing vector (i.e. 12:00 vector) twice as long (so that its tip is unchanged).
+  * _**Solution**_
+    * Just move all arrows down, but stretch the upmost-pointing vector (i.e. 12:00 vector) twice as long (so that its tip is unchanged).
   
 <br><br>
 
 #### 15. Figure 1.5a shows $\frac{1}{2}\vec{v} + \frac{1}{2}\vec{w}$. Mark the points $\frac{3}{4}\vec{v} + \frac{1}{4}\vec{w}$ and $\frac{1}{4}\vec{v} + \frac{1}{4}\vec{w}$.
 
-
+  * _**Solution**_
+    * In the figure below, 
+      * blue arrow $\rarrow$ $\vec{v}$
+      * red arrow $\rarrow$ $\vec{w}$
+      * magenta dot $\rarrow$ $u$
+      * cyan dot $\rarrow$ $\frac{3}{4}\vec{v} + \frac{1}{4}\vec{w}$
+      * green dot $\rarrow$ $\frac{1}{4}\vec{v} + \frac{1}{4}\vec{w}$
+      * yellow dot $\rarrow$ $\vec{v} _ \vec{w}$
+    
+    ![1-1-15](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_15.png?raw=true)
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
