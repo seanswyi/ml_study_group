@@ -150,17 +150,8 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 #### 16. Mark the point $-\vec{v} + 2\vec{w}$ and any other combination $c\vec{v} + d\vec{w}$ with $c + d = 1$. Draw the line of all combinations that have $c + d = 1$.
 
   * _**Solution**_
-    * In the figure below,
-      * blue arrow $\rightarrow$ $-\vec{v}$
-        * We just flipped the original vector $\vec{v}$ across the origin.
-      * red arrow $\rightarrow$ $2\vec{w}$
-      * green dot $\rightarrow$ $-\vec{v} + 2\vec{w}$
-      * magenta dot $\rightarrow$ $\frac{1}{2}\vec{v} + \frac{1}{2}\vec{w}$
-      * two black arrows $\rightarrow$ original $\vec{v}$ and $\vec{w}$
-      * black dotted line $\rightarrow$ line that passes through all combinations of $c + d = 1$
-        * The equation of this line can't be determined, but if we assume that $\vec{v} = (3,\ 1)$ and $\vec{w} = (1,\ 3)$ then the equation would be $y = -x + 4$.
         
-    ![-1-1-16](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_16.png?raw=true)
+    ![-1-1-16](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_16.png?raw=true)
     
 <br><br>
 
