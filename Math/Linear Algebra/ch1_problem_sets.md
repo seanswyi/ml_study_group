@@ -67,7 +67,7 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     
     * Graph:
     
-    ![1.1 7](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_7.png?raw=true)
+    ![1.1 7](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_07.png?raw=true)
 
 <br><br>
 
