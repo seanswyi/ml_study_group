@@ -169,7 +169,35 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
       * black dotted line $\rightarrow$ line that passes through all combinations of $c + d = 1$
         * The equation of this line can't be determined, but if we assume that $\vec{v} = (3,\ 1)$ and $\vec{w} = (1,\ 3)$ then the equation would be $y = -x + 4$.
         
-![-1-1-16](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_16.png?raw=true)
+    ![-1-1-16](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_16.png?raw=true)
+    
+<br><br>
+
+#### 17. Locate $\frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$ and $\frac{2}{3}\vec{v} + \frac{2}{3}\vec{w}$. The combinations of $c\vec{v} + c\vec{w}$ fill out what line?
+
+  * _**Solution**_
+    * In the figure below,
+      * blue arrow $\rightarrow$ $\vec{v}$
+      * red arrow $\rightarrow$ $\vec{w}$
+      * green dot $\rightarrow$ $\frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$
+      * magenta dot $\rightarrow$ $\frac{2}{3}\vec{v} + \frac{2}{3}\vec{w}$
+      * black dotted line is the line that $c\vec{v} + c\vec{w}$ fill out
+        * The equation for this line is $y = x$.
+        
+    ![1-1-17](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_17.png?raw=true)
+    
+<br><br>
+
+#### 18. Restricted by $0 \le c \le 1$ and $0 \le d \le 1$, shade in all combinations $c\vec{v} + d\vec{w}$.
+
+  * _**Solution**_
+    * In the figure below,
+      * blue arrow $\rightarrow$ $\vec{v}$
+      * red arrow $\rightarrow$ $\vec{w}$
+    * The parallelogram shaded in dark blue is the area that represents all combinations of $c\vec{v} + d\vec{w}$ under the given restrictions.
+      * Vector $\vec{v}$ is the case where $c = 1$ and $d = 0$, and the opposite case applies for $\vec{w}$. The upper right corner of the parallelogram is the case where $c = 1$ and $d = 1$. Everything else falls in inside this region.
+      
+    ![1-1-18](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_18.png?raw=true)
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
