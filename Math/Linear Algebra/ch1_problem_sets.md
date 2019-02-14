@@ -27,7 +27,7 @@
   * _**Solution**_:
     * $\vec{v} = \begin{bmatrix}3\\\\3\\\\\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}2\\\\-2\\\\\end{bmatrix}$.
     
-    ![Vector_Plot](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_3.png?raw=true)
+    ![Vector_Plot](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_03.png?raw=true)
 
 <br><br>
 
