@@ -158,15 +158,8 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 #### 17. Locate $\frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$ and $\frac{2}{3}\vec{v} + \frac{2}{3}\vec{w}$. The combinations of $c\vec{v} + c\vec{w}$ fill out what line?
 
   * _**Solution**_
-    * In the figure below,
-      * blue arrow $\rightarrow$ $\vec{v}$
-      * red arrow $\rightarrow$ $\vec{w}$
-      * green dot $\rightarrow$ $\frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$
-      * magenta dot $\rightarrow$ $\frac{2}{3}\vec{v} + \frac{2}{3}\vec{w}$
-      * black dotted line is the line that $c\vec{v} + c\vec{w}$ fill out
-        * The equation for this line is $y = x$.
         
-    ![1-1-17](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_17.png?raw=true)
+    ![1-1-17](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_17.png?raw=true)
     
 <br><br>
 
