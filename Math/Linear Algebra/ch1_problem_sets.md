@@ -18,7 +18,7 @@
 
   * _**Solution**_:
   
-  ![Vector Plot](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_2.png?raw=true)
+  ![Vector Plot](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_02.png?raw=true)
 
 <br><br>
 
