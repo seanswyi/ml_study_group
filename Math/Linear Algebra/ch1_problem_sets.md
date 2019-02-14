@@ -142,17 +142,8 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
 #### 15. Figure 1.5a shows $\frac{1}{2}\vec{v} + \frac{1}{2}\vec{w}$. Mark the points $\frac{3}{4}\vec{v} + \frac{1}{4}\vec{w}$ and $\frac{1}{4}\vec{v} + \frac{1}{4}\vec{w}$.
 
   * _**Solution**_
-    * In the figure below, 
-      * blue arrow $\rightarrow$ $\vec{v}$
-      * red arrow $\rightarrow$ $\vec{w}$
-      * magenta dot $\rightarrow$ $u$
-      * cyan dot $\rightarrow$ $\frac{3}{4}\vec{v} + \frac{1}{4}\vec{w}$
-      * green dot $\rightarrow$ $\frac{1}{4}\vec{v} + \frac{1}{4}\vec{w}$
-      * yellow dot $\rightarrow$ $\vec{v} + \vec{w}$
-        * Each blue dotted line represents the reflection of the portion of vector $\vec{v}$, and each red dotted line represents the reflection of the portion of vector $\vec{w}$.
-          * These are used to find the points using the parallelogram method.
     
-    ![1-1-15](https://github.com/seankala/ml_study_group/blob/master/Images/ch1_1-1_15.png?raw=true)
+    ![1-1-15](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_15.png?raw=true)
     
 <br><br>
 
