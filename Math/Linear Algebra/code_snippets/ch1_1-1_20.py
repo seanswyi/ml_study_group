@@ -24,22 +24,29 @@ plt.plot([2.5, 3], [3.5, 1], 'k--')
 plt.plot([1, 3], [3, 1], 'k--')
 
 # (1/3)u + (1/3)v + (1/3)w
-plt.plot(2.15, 2.6, 'ro', label=r'$\frac{1}{3}\vec{u} + \frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$')
+plt.plot(2.1, 2.6, 'ro', label=r'$\frac{1}{3}\vec{u} + \frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$')
 
 # (1/2)u + (1/2)w
 plt.plot(1.75, 3.25, 'bo', label=r'$\frac{1}{2}\vec{u} + \frac{1}{2}\vec{v}$')
 
-# Addition dotted lines.
-plt.plot([1, 2.15], [0.333, 2.6], 'C0--')
-plt.plot([0.333, 2.15], [1, 2.6], 'C1--')
-plt.plot([0.833, 2.15], [1.167, 2.6], 'C2--')
+# (1/2)u
+plt.quiver(0.5, 1.5, 1.25, 1.75, color='C3', angles='xy', scale_units='xy', scale=1, label=r'$\frac{1}{2}\vec{u}$')
 
-plt.plot([1.5, 1.75], [0.5, 3.25], 'C1--')
-plt.plot([1.25, 1.75], [1.75, 3.25], 'C2--')
+# (1/2)w
+plt.quiver(0, 0, 0.5, 1.6, color='C4', angles='xy', scale_units='xy', scale=1, label=r'$\frac{1}{2}\vec{w}$')
+
+# (1/3)u
+plt.quiver(0, 0, 0.8333, 1.1666, color='C5', angles='xy', scale_units='xy', scale=1, label=r'$\frac{1}{3}\vec{u}$')
+
+# (1/3)v
+plt.quiver(0.8333, 1.1666, 0.9167, 0.4333, color='C6', angles='xy', scale_units='xy', scale=1, label=r'$\frac{1}{3}\vec{v}$')
+
+# (1/3)w
+plt.quiver(1.75, 1.6, 0.3999, 1.1, color='C7', angles='xy', scale_units='xy', scale=1, label=r'$\frac{1}{3}\vec{w}$')
 
 # Miscellaneous.
-plt.xlim(-1, 6)
-plt.ylim(-1, 6)
+plt.xlim(-1, 8)
+plt.ylim(-1, 8)
 plt.axhline(0, color='black')
 plt.axvline(0, color='black')
 plt.xlabel(r'$x$', fontsize='large')
