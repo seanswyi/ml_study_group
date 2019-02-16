@@ -26,10 +26,16 @@ plt.plot([1, 3], [3, 1], 'k--')
 # (1/3)u + (1/3)v + (1/3)w
 plt.plot(2.15, 2.6, 'ro', label=r'$\frac{1}{3}\vec{u} + \frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$')
 
+# (1/2)u + (1/2)v
+plt.plot(2.75, 2.25, 'bo', label=r'$\frac{1}{2}\vec{u} + \frac{1}{2}\vec{v}$')
+
 # Addition dotted lines.
 plt.plot([1, 2.15], [0.333, 2.6], 'C0--')
 plt.plot([0.333, 2.15], [1, 2.6], 'C1--')
 plt.plot([0.833, 2.15], [1.167, 2.6], 'C2--')
+
+plt.plot([1.5, 2.75], [0.5, 2.25], 'C0--')
+plt.plot([1.25, 2.75], [1.75, 2.25], 'C2--')
 
 # Miscellaneous.
 plt.xlim(-1, 6)
