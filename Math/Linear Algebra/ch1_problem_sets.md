@@ -197,7 +197,7 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     * **Challenge Problem**
       * This may seem a bit tricky, but again it's just an extension of earlier problems. Take a look at figure 1.5a. It's a triangle and our starting point is the origin, right? This $\Bbb{R}^3$ version is the exact same, except our points are not $\{\mathbf{0},\ \vec{v},\ \vec{w}\}$. Our points are now $\{\vec{w},\ \vec{u} - \vec{W},\ \vec{v} - \vec{w}\}$. Take note that the three points can be anything, it just depends on what vector your foucsing on (in this case I focused on $\vec{w}$).
       * All the combinations of the vectors can be expressed as $\vec{w} + \alpha(\vec{u} - \vec{w}) + \beta(\vec{v} - \vec{w})$.
-        * Here, there are some restrictions: $\alpha + \beta \le 0$ (look at #16 if this is unclear).
+        * Here, there are some restrictions: $\alpha + \beta \le 1$ (look at #16 if this is unclear).
       * And now the two equations must equal: $c\vec{u} + d\vec{v} + e\vec{w} = \vec{w} + \alpha(\vec{u} - \vec{w}) + \beta(\vec{v} - \vec{w})$.
       * If we clear up the two equations, we come up with the following:
         * $c\vec{u} + d\vec{v} + e\vec{w} = \alpha\vec{u} + \beta\vec{v} + (1 - \alpha - \beta)\vec{w}$
