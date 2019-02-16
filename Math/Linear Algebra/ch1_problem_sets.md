@@ -179,6 +179,10 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     * The graph is restricted, but the green area extends until infinity. Hence, a "cone."
     
     ![1-1-19](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_19.png?raw=true)
+    
+#### 20. Locate $\frac{1}{3}\vec{u} + \frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$ and $\frac{1}{2}\vec{u} + \frac{1}{2}\vec{w}$ in Figure 1.5b. Challenge problem: Under what restrictions on $c$, $d$, $e$, will the combinations $c\vec{u} + d\vec{v} + e\vec{w}$ fill in the dashed triangle? To stay in the triangle, one requirement is $c \ge 0$, $d \ge 0$, $e \ge 0$.
+
+
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
