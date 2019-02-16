@@ -180,6 +180,8 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     
     ![1-1-19](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_19.png?raw=true)
     
+<br><br>
+    
 #### 20. Locate $\frac{1}{3}\vec{u} + \frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$ and $\frac{1}{2}\vec{u} + \frac{1}{2}\vec{w}$ in Figure 1.5b. Challenge problem: Under what restrictions on $c$, $d$, $e$, will the combinations $c\vec{u} + d\vec{v} + e\vec{w}$ fill in the dashed triangle? To stay in the triangle, one requirement is $c \ge 0$, $d \ge 0$, $e \ge 0$.
 
   * _**Solution**_
@@ -189,7 +191,10 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
       * If you think about it, you can just abuse the fact that (from the physics perspective) you can move a vector in any direction as long as the magnitude (length) and directions are the same.
     * To first find $\frac{1}{3}\vec{u} + \frac{1}{3}\vec{v} + \frac{1}{3}\vec{w}$, we start from the origin and sequentially add one-thirds of each vector.
       * It's important to stay parallel with the vectors we're adding, in accordance to the parallelogram method.
-    
+      * Starting from $\frac{1}{3}\vec{u}$, we keep building on top of the previous vector and adding it.
+    * The same rule applies to $\frac{1}{2}\vec{u} + \frac{1}{2}\vec{w}$.
+      
+    ![1-1-20](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_20.png?raw=true)
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
