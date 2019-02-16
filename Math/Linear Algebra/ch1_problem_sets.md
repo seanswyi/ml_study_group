@@ -202,7 +202,7 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
       * If we clear up the two equations, we come up with the following:
         * $c\vec{u} + d\vec{v} + e\vec{w} = \alpha\vec{u} + \beta\vec{v} + (1 - \alpha - \beta)\vec{w}$
         * $\begin{cases}\alpha = c\\\\\beta = d\\\\(1 - \alpha - \beta) = e\end{cases}$
-        * We arrive at the following answer: $c + d + e = 1 \text{and} c \ge 0, d \ge 0, e \ge 0$
+        * We arrive at the following answer: $c + d + e = 1\ \text{and}\ c \ge 0, d \ge 0, e \ge 0$
       
     ![1-1-20](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_20.png?raw=true)
     
