@@ -170,6 +170,15 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
       * Vector $\vec{v}$ is the case where $c = 1$ and $d = 0$, and the opposite case applies for $\vec{w}$. The upper right corner of the parallelogram is the case where $c = 1$ and $d = 1$. Everything else falls in inside this region.
       
     ![1-1-18](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_18.png?raw=true)
+    
+<br><br>
+
+#### 19. Restricted by only $c \ge 0$ and $d \ge 0$ draw the "cone" of all combinations of $c\vec{v} + d\vec{w}$.
+
+  * _**Solution**_
+    * The graph is restricted, but the green area extends until infinity. Hence, a "cone."
+    
+    ![1-1-19](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_19.png?raw=true)
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
