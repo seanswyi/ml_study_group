@@ -193,8 +193,22 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
       * It's important to stay parallel with the vectors we're adding, in accordance to the parallelogram method.
       * Starting from $\frac{1}{3}\vec{u}$, we keep building on top of the previous vector and adding it.
     * The same rule applies to $\frac{1}{2}\vec{u} + \frac{1}{2}\vec{w}$.
+    
+    * **Challenge Problem**
+      * This may seem a bit tricky, but again it's just an extension of earlier problems. Take a look at figure 1.5a. It's a triangle and our starting point is the origin, right? This $\Bbb{R}^3$ version is the exact same, except our points are not $\{\mathbf{0},\ \vec{v},\ \vec{w}\}$. Our points are now $\{\vec{w},\ \vec{u} - \vec{W},\ \vec{v} - \vec{w}\}$. Take note that the three points can be anything, it just depends on what vector your foucsing on (in this case I focused on $\vec{w}$).
+      * All the combinations of the vectors can be expressed as $\vec{w} + \alpha(\vec{u} - \vec{w}) + \beta(\vec{v} - \vec{w})$.
+        * Here, there are some restrictions: $\alpha + \beta \le 0$ (look at #16 if this is unclear).
+      * And now the two equations must equal: $c\vec{u} + d\vec{v} + e\vec{w} = \vec{w} + \alpha(\vec{u} - \vec{w}) + \beta(\vec{v} - \vec{w})$.
+      * If we clear up the two equations, we come up with the following:
+        * $c\vec{u} + d\vec{v} + e\vec{w} = \alpha\vec{u} + \beta\vec{v} + (1 - \alpha - \beta)\vec{w}$
+        * $\begin{cases}\alpha = c\\\\\beta = d\\\\(1 - \alpha - \beta) = e\end{cases}$
+        * We arrive at the following answer: $c + d + e = 1 \text{and} c \ge 0, d \ge 0, e \ge 0$
       
     ![1-1-20](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_20.png?raw=true)
+    
+<br><br>
+
+#### 21. 
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
