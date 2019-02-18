@@ -150,8 +150,77 @@ plt.show()
 
 This code produces the following image:
 
-![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/vector_plots.png?raw=true)
+![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/Math/vector_plots.png?raw=true)
 
 It's not difficult to see that if we were to take every single real value of $c$ and multiplied it to the vector $\vec{u}$, we would eventually get a straight line.
 
 The plots for the second and third questions are a bit harder to visualize (I'm actually not sure if it's possible to simply visualize it without actual animations), so I'll leave it out but if you feel the need for visual stimulus then I highly recommend watching the 3Blue1Brown videos posted at the start.
+
+---
+
+## 1.2 Lenghts and Dot Products
+
+### Video Material:
+
+[3Blue1Brown - Dot Products and Duality | Essence of linear algebra, chapter 9](https://www.youtube.com/watch?v=LyGKycYT2v0&t=2s)
+
+The _**dot product**_ is another word for the _**inner product**_. The name is derived from the literal "dot" in between two vectors.
+
+The actual computation is as follows:
+
+Let's say we have two vectors, $\vec{v}$ and $\vec{w}$ each with a total of $n$ components. Their dot product, $\vec{v} \cdot \vec{w}$ would be:
+
+$$\begin{align}
+\vec{v} \cdot \vec{w} & = \sum_{i = 1}^{n}v_iw_i\\\\
+& = v_1w_1 + v_2w_2 + \ldots + v_nw_n
+\end{align}
+$$
+
+The significance of the dot product is that it measures _**"how much of one vector is in the direction of the other."**_
+
+The 3Blue1Brown video says that the dot product of two vectors is **(length of projection of first vector onto second vector) $\times$ (length of second vector)**.
+
+Let's look at an example:
+
+![alt-text](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-2_example1.png?raw=true)
+
+In the above figure, we have two vectors: $\vec{v}$ (blue) and $\vec{w}$ (orange). There are also two extra lines: the red line represents the _**component of $\vec{w}$ on $\vec{v}$**_ and the black line is just a line that illustrates that the component of one vector on the other is obtained by drawing a perpendicular line.
+
+The component of $\vec{w}$ on $\vec{v}$ simply signifies _**how much of $\vec{w}$ is in the direction of $\vec{v}$**_.
+  * This can be easily understood by keeping in mind the parallelogram method. Let's say we had another vector $\vec{u}$ that went in the same direction in the same amount as the perpendicular black dotted line. Then $\vec{w}$ would equal the sum of $\vec{u}$ along with the vector whose magnitude is $\text{comp}_{\vec{v}}\vec{w}$. The following figure depicts it:
+  
+![alt-text](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-2_example2.png?raw=true)
+
+In this image, we can see that $\vec{w}$ can be composed of the two vectors to its left, hence the *component of $\vec{w}$ on $\vec{v}$*. Technically speaking, this is the projection of $\vec{w}$ on $\vec{v}$, but you get the message.
+
+※ The component of $\vec{v}$ onto $\vec{w}$ is also known as the _**scalar projection**_, since its taking the length (i.e. a scalar value) of the projection. The computational calculation is as follows:
+
+$$\text{$\mathbf{comp}$}_{\vec{v}}\vec{w} = \frac{\vec{v} \cdot \vec{w}}{\Vert \vec{v} \Vert}$$
+
+Some applications of the dot product are when finding out the angle between two vectors, calculating work done in physics, etc.
+
+<br>
+
+### Lengths and Unit Vectors
+
+* The _**length**_ of a vector $\vec{v}$ is the square root of $\vec{v} \cdot \vec{v}$ (its dot product with itself):
+
+$$\text{$\mathbf{length}$}(\vec{v}) = \Vert \vec{v} \Vert = \sqrt{\vec{v} \cdot \vec{v}}$$
+
+* A _**unit vector**_ is a vector whose length is $1$. If you want to obtain the unit vector that is in the same direction as vector $\vec{v}$, simply divide $\vec{v}$ by its length $\Vert \vec{v} \Vert$.
+
+$$\vec{u}_\vec{v} = \frac{\vec{v}}{\Vert \vec{v} \Vert}$$
+
+<br>
+
+### The Angle Between Two Vectors
+
+* The dot product between two vectors is $0$ when they are perpendicular.
+  * If two vectors are perpendicular, then the length of their projection onto the other is $0$.
+  
+* **Cosine Formula**
+  * If $\vec{v}$ and $\vec{w}$ are nonzero then
+$$\frac{\vec{v} \cdot \vec{w}}{\Vert \vec{v} \Vert \Vert \vec{w} \Vert} = \cos{\theta}$$
+
+* [**Cauchy-Schwarz Inequality**](https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality#Applications)
+  * $\vert \vec{v} \cdot \vec{w} \vert \le \Vert \vec{v} \Vert \Vert \vec{w} \Vert$
