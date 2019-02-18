@@ -193,6 +193,10 @@ The component of $\vec{w}$ on $\vec{v}$ simply signifies _**how much of $\vec{w}
 
 In this image, we can see that $\vec{w}$ can be composed of the two vectors to its left, hence the *component of $\vec{w}$ on $\vec{v}$*. Technically speaking, this is the projection of $\vec{w}$ on $\vec{v}$, but you get the message.
 
+※ The component of $\vec{v}$ onto $\vec{w}$ is also known as the _**scalar projection**_, since its taking the length (i.e. a scalar value) of the projection. The computational calculation is as follows:
+
+$$\text{$\mathbf{comp}$}_{\vec{v}}\vec{w} = \frac{\vec{v} \cdot \vec{w}}{\Vert \vec{v} \Vert}$$
+
 Some applications of the dot product are when finding out the angle between two vectors, calculating work done in physics, etc.
 
 <br>
@@ -217,3 +221,6 @@ $$\vec{u}_\vec{v} = \frac{\vec{v}}{\Vert \vec{v} \Vert}$$
 * **Cosine Formula**
   * If $\vec{v}$ and $\vec{w}$ are nonzero then
 $$\frac{\vec{v} \cdot \vec{w}}{\Vert \vec{v} \Vert \Vert \vec{w} \Vert} = \cos{\theta}$$
+
+* [**Cauchy-Schwarz Inequality**](https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality#Applications)
+  * $\vert \vec{v} \cdot \vec{w} \vert \le \Vert \vec{v} \Vert \Vert \vec{w} \Vert$
