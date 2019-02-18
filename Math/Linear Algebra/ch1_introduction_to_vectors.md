@@ -199,4 +199,4 @@ Some applications of the dot product are when finding out the angle between two 
 
 The _**length**_ of a vector $\vec{v}$ is the squart root of $\vec{v} \cdot \vec{v}$ (its dot product with itself):
 
-$$\text{$\mathbf{length}$} = \Vert \vec{v} \Vert = \sqrt{\vec{v} \cdot \vec{v}}$$
+$$\text{$\mathbf{length}$}(\vec{v}) = \Vert \vec{v} \Vert = \sqrt{\vec{v} \cdot \vec{v}}$$
