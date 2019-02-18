@@ -193,14 +193,9 @@ The component of $\vec{w}$ on $\vec{v}$ simply signifies _**how much of $\vec{w}
 
 In this image, we can see that $\vec{w}$ can be composed of the two vectors to its left, hence the *component of $\vec{w}$ on $\vec{v}$*. Technically speaking, this is the projection of $\vec{w}$ on $\vec{v}$, but you get the message.
 
-<br>
-
-This notion is directly connected to the fact that the _**dot product of perpendicular (orthogonal) vectors is $0$**_.
-  * If two vectors are perpendicular, then the length of their projection onto the other is $0$.
-  
-<br>
-
 Some applications of the dot product are when finding out the angle between two vectors, calculating work done in physics, etc.
+
+<br>
 
 ### Lengths and Unit Vectors
 
@@ -211,3 +206,14 @@ $$\text{$\mathbf{length}$}(\vec{v}) = \Vert \vec{v} \Vert = \sqrt{\vec{v} \cdot 
 * A _**unit vector**_ is a vector whose length is $1$. If you want to obtain the unit vector that is in the same direction as vector $\vec{v}$, simply divide $\vec{v}$ by its length $\Vert \vec{v} \Vert$.
 
 $$\vec{u}_\vec{v} = \frac{\vec{v}}{\Vert \vec{v} \Vert}$$
+
+<br>
+
+### The Angle Between Two Vectors
+
+* The dot product between two vectors is $0$ when they are perpendicular.
+  * If two vectors are perpendicular, then the length of their projection onto the other is $0$.
+  
+* **Cosine Formula**
+  * If $\vec{v}$ and $\vec{w}$ are nonzero then
+$$\frac{\vec{v} \cdot \vec{w}}{\Vert \vec{v} \Vert \Vert \vec{w} \Vert} = \cos{\theta}$$
