@@ -178,3 +178,17 @@ $$
 
 The significance of the dot product is that it measures _**"how much of one vector is in the direction of the other."**_
 
+The 3Blue1Brown video says that the dot product of two vectors is **(length of projection of first vector onto second vector) $\times$ (length of second vector)**.
+
+Let's look at an example:
+
+![alt-text](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-2_example1.png?raw=true)
+
+In the above figure, we have two vectors: $\vec{v}$ (blue) and $\vec{w}$ (orange). There are also two extra lines: the red line represents the _**component of $\vec{w}$ on $\vec{v}$**_ and the black line is just a line that illustrates that the component of one vector on the other is obtained by drawing a perpendicular line.
+
+The component of $\vec{w}$ on $\vec{v}$ simply signifies _**how much of $\vec{w}$ is in the direction of $\vec{v}$**_.
+  * This can be easily understood by keeping in mind the parallelogram method. Let's say we had another vector $\vec{u}$ that went in the same direction in the same amount as the perpendicular black dotted line. Then $\vec{w}$ would equal the sum of $\vec{u}$ along with the vector whose magnitude is $\text{comp}_{\vec{v}}\vec{w}$. The following figure depicts it:
+  
+![alt-text](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-2_example2.png?raw=true
+
+In this image, we can see that $\vec{w}$ can be composed of the two vectors to its left, hence the *component of $\vec{w}$ on $\vec{v}$*.
