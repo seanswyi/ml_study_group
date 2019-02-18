@@ -158,16 +158,23 @@ The plots for the second and third questions are a bit harder to visualize (I'm 
 
 ---
 
-### 1.2 Lenghts and Dot Products
+## 1.2 Lenghts and Dot Products
+
+### Video Material:
+
+[3Blue1Brown - Dot Products and Duality | Essence of linear algebra, chapter 9](https://www.youtube.com/watch?v=LyGKycYT2v0&t=2s)
 
 The _**dot product**_ is another word for the _**inner product**_. The name is derived from the literal "dot" in between two vectors.
 
 The actual computation is as follows:
 
-Let's say we have two vectors, $\vec{v} = \begin{bmatrix}v_1\\\\v_2\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}w_1\\\\w_2\end{bmatrix}$. Their dot product, $\vec{v} \cdot \vec{w}$ would be:
+Let's say we have two vectors, $\vec{v}$ and $\vec{w}$ each with a total of $n$ components. Their dot product, $\vec{v} \cdot \vec{w}$ would be:
 
 $$\begin{align}
 \vec{v} \cdot \vec{w} & = \sum_{i = 1}^{n}v_iw_i\\\\
 & = v_1w_1 + v_2w_2 + \ldots v_nw_n
 \end{align}
 $$
+
+The significance of the dot product is that it measures _**"how much of one vector is in the direction of the other."**_
+
