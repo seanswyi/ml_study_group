@@ -172,7 +172,7 @@ Let's say we have two vectors, $\vec{v}$ and $\vec{w}$ each with a total of $n$ 
 
 $$\begin{align}
 \vec{v} \cdot \vec{w} & = \sum_{i = 1}^{n}v_iw_i\\\\
-& = v_1w_1 + v_2w_2 + \ldots v_nw_n
+& = v_1w_1 + v_2w_2 + \ldots + v_nw_n
 \end{align}
 $$
 
