@@ -191,4 +191,7 @@ The component of $\vec{w}$ on $\vec{v}$ simply signifies _**how much of $\vec{w}
   
 ![alt-text](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-2_example2.png?raw=true)
 
-In this image, we can see that $\vec{w}$ can be composed of the two vectors to its left, hence the *component of $\vec{w}$ on $\vec{v}$*.
+In this image, we can see that $\vec{w}$ can be composed of the two vectors to its left, hence the *component of $\vec{w}$ on $\vec{v}$*. Technically speaking, this is the projection of $\vec{w}$ on $\vec{v}$, but you get the message.
+
+Some applications of the dot product are when finding out the angle between two vectors, calculating work done in physics, etc.
+
