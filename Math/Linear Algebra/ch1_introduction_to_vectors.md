@@ -150,7 +150,7 @@ plt.show()
 
 This code produces the following image:
 
-![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/vector_plots.png?raw=true)
+![Vector $\vec{u}$ linear combinations](https://github.com/seankala/ml_study_group/blob/master/Images/Math/vector_plots.png?raw=true)
 
 It's not difficult to see that if we were to take every single real value of $c$ and multiplied it to the vector $\vec{u}$, we would eventually get a straight line.
 
