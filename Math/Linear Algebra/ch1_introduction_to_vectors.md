@@ -155,3 +155,19 @@ This code produces the following image:
 It's not difficult to see that if we were to take every single real value of $c$ and multiplied it to the vector $\vec{u}$, we would eventually get a straight line.
 
 The plots for the second and third questions are a bit harder to visualize (I'm actually not sure if it's possible to simply visualize it without actual animations), so I'll leave it out but if you feel the need for visual stimulus then I highly recommend watching the 3Blue1Brown videos posted at the start.
+
+---
+
+### 1.2 Lenghts and Dot Products
+
+The _**dot product**_ is another word for the _**inner product**_. The name is derived from the literal "dot" in between two vectors.
+
+The actual computation is as follows:
+
+Let's say we have two vectors, $\vec{v} = \begin{bmatrix}v_1\\\\v_2\end{bmatrix}$ and $\vec{w} = \begin{bmatrix}w_1\\\\w_2\end{bmatrix}$. Their dot product, $\vec{v} \cdot \vec{w}$ would be:
+
+$$\begin{align}
+\vec{v} \cdot \vec{w} & = \sum_{i = 1}^{n}v_iw_i\\\\
+& = v_1w_1 + v_2w_2 + \ldots v_nw_n
+\end{align}
+$$
