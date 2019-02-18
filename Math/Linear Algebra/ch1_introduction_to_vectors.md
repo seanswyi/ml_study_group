@@ -197,6 +197,10 @@ Some applications of the dot product are when finding out the angle between two 
 
 ### Lengths and Unit Vectors
 
-The _**length**_ of a vector $\vec{v}$ is the squart root of $\vec{v} \cdot \vec{v}$ (its dot product with itself):
+* The _**length**_ of a vector $\vec{v}$ is the square root of $\vec{v} \cdot \vec{v}$ (its dot product with itself):
 
 $$\text{$\mathbf{length}$}(\vec{v}) = \Vert \vec{v} \Vert = \sqrt{\vec{v} \cdot \vec{v}}$$
+
+* A _**unit vector**_ is a vector whose length is $1$. If you want to obtain the unit vector that is in the same direction as vector $\vec{v}$, simply divide $\vec{v}$ by its length $\Vert \vec{v} \Vert$.
+
+$$\vec{u}_\vec{v} = \frac{\vec{v}}{\Vert \vec{v} \Vert}$$
