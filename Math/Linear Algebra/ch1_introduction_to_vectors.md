@@ -195,3 +195,8 @@ In this image, we can see that $\vec{w}$ can be composed of the two vectors to i
 
 Some applications of the dot product are when finding out the angle between two vectors, calculating work done in physics, etc.
 
+### Lengths and Unit Vectors
+
+The _**length**_ of a vector $\vec{v}$ is the squart root of $\vec{v} \cdot \vec{v]$ (its dot product with itself):
+
+$$\text{\mathbf{length}} = \Vert \vec{v} \Vert = \sqrt{\vec{v} \cdot \vec{v}}$$
