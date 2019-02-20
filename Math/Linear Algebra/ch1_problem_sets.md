@@ -208,7 +208,50 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     
 <br><br>
 
-#### 21. 
+#### 21. The three sides of the dashed triangle $\vec{v} - \vec{w}$ and $\vec{w} - \vec{v}$ and $\vec{u} - \vec{w}$. Their sum is *_____*. Draw the the head-to-tail addition around a plane triangle of $(3,\ 1)$ plus $(-1,\ 1)$ plus $(-2,\ -2)$.
+
+  * _**Solution**_
+    * *_____* : $(\vec{v} - \vec{u}) + (\vec{w} - \vec{v}) + (\vec{u} - \vec{w}) = 0$
+    * The triangle is as follows:
+
+![1-1-21](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_21.png?raw=true)
+
+<br><br>
+
+#### 22. Shade in the pyramid of combinations $c\vec{u} + d\vec{v} + e\vec{w}$ with $c \ge 0$, $d \ge 0$, $e \ge 0$ and $c + d + 1 \le 1$. Mark the vector $\frac{1}{2}(\vec{u} + \vec{v} + \vec{w})$ as inside or outside this pyramid.
+
+  * _**Solution**_
+    * The shaded pyramid (or more precisely the tetrahedron or triangular pyramid) is the tetrahedron whose four points are the origin, $\vec{u}$, $\vec{v}$, and $\vec{w}$.
+    * The vector $\frac{1}{2}(\vec{u} + \vec{v} + \vec{w})$ lies outside the pyramid. This is easily verifiable using the parallelogram adding method (if this is unclear, please reference #20).
+    
+<br><br>
+
+#### 23. If you look at _all_ combinations of those $\vec{u}$, $\vec{v}$, and $\vec{w}$, is there any vector that can't be produced from $c\vec{u} + d\vec{v} + e\vec{w}$? Different answer if *_____*.
+
+  * _**Solution**_
+    * No, there is no vector that cannot be produced from the combination $d\vec{u} + d\vec{v} + e\vec{w}$ (assuming the same restraints from #22 hold).
+    * *_____* : "they are all in the same plane"
+      * Building on top of the intuition of linear combinations and linear (in)dependence, if the three vectors all lie in the same plane it means that one is a multiple of another. This restricts the vectors that we can draw to 2D, which means that we cannot fill out the 3D tetrahedron.
+      
+<br><br>
+
+#### 24. Which vectors are combinations of $\vec{u}$ and $\vec{v}$ and _also_ combinations of $\vec{v}$ and $\vec{w}$?
+
+  * _**Solution**_
+    * Vectors that are combinations of both $c\vec{u} + d\vec{v}$ and $d\vec{v} + e\vec{w}$ are simply vectors in $d\vec{v}$.
+      * You can either just look at the two equations and see what they have in common (i.e. $d\vec{v}$), or you can visualize it geometrically.
+        * Each equation "draws" on side of the tetrahedron. The common vectors of two sides would be the line that is connecting them. Hence, the linear combinations of a single vector.
+        
+<br><br>
+
+#### 25. Draw vectors $\vec{u}$, $\vec{v}$, $\vec{w}$ so that their combinations $c\vec{u} + d\vec{v} + e\vec{w}$ fill only a line. Find vectors $\vec{u}$, $\vec{v}$, $\vec{w}$ so that their combinations $c\vec{u} + d\vec{v} + e\vec{w}$ fill only a plane.
+
+  * _**Solution**_
+    * If we want all of the combination of the three vectors to only fill a line, we must make sure that they are all the same.
+      * You could also say that one vector could be the inverse of the other (e.g. $\vec{u} = $-\vec{v}$), but that wouldn't apply to this situation since we have the constrains of the coefficients to be nonnegative.
+    * For the combinations of the three vectors to fill a plane, we just need to assure that one vector is the linear combination of the other two.
+    
+<br><br>
 
 #### 28. Find vectors $\vec{v}$ and $\vec{w}$ so that $\vec{v} + \vec{w} = (4,\ 5,\ 6)$ and $\vec{v} - \vec{w} = (2,\ 5,\ 8)$. This is a question with *_____* unknown numbers, and an equal number of equations to find those numbers.
 
