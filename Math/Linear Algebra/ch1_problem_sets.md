@@ -208,10 +208,10 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     
 <br><br>
 
-#### 21. The three sides of the dashed triangle $\vec{v} - \vec{w}$ and $\vec{w} - \vec{v}$ and $\vec{u} - \vec{w}$. Their sum is $_____$. Draw the the head-to-tail addition around a plane triangle of $(3,\ 1)$ plus $(-1,\ 1)$ plus $(-2,\ -2)$.
+#### 21. The three sides of the dashed triangle $\vec{v} - \vec{w}$ and $\vec{w} - \vec{v}$ and $\vec{u} - \vec{w}$. Their sum is *_____*. Draw the the head-to-tail addition around a plane triangle of $(3,\ 1)$ plus $(-1,\ 1)$ plus $(-2,\ -2)$.
 
   * _**Solution**_
-    * $_____$ : $(\vec{v} - \vec{u}) + (\vec{w} - \vec{v}) + (\vec{u} - \vec{w}) = 0$
+    * *_____* : $(\vec{v} - \vec{u}) + (\vec{w} - \vec{v}) + (\vec{u} - \vec{w}) = 0$
     * The triangle is as follows:
 
 ![1-1-21](https://github.com/seankala/ml_study_group/blob/master/Images/Math/ch1_1-1_21.png?raw=true)
@@ -226,11 +226,11 @@ $$\vec{u} = \begin{bmatrix}1\\\\2\\\\3\\\\\end{bmatrix},\ \vec{v} = \begin{bmatr
     
 <br><br>
 
-#### 23. If you look at _all_ combinations of those $\vec{u}$, $\vec{v}$, and $\vec{w}$, is there any vector that can't be produced from $c\vec{u} + d\vec{v} + e\vec{w}$? Different answer if ${_____}$.
+#### 23. If you look at _all_ combinations of those $\vec{u}$, $\vec{v}$, and $\vec{w}$, is there any vector that can't be produced from $c\vec{u} + d\vec{v} + e\vec{w}$? Different answer if *_____*.
 
   * _**Solution**_
     * No, there is no vector that cannot be produced from the combination $d\vec{u} + d\vec{v} + e\vec{w}$ (assuming the same restraints from #22 hold).
-    * ${_____}$ : "they are all in the same plane"
+    * *_____* : "they are all in the same plane"
       * Building on top of the intuition of linear combinations and linear (in)dependence, if the three vectors all lie in the same plane it means that one is a multiple of another. This restricts the vectors that we can draw to 2D, which means that we cannot fill out the 3D tetrahedron.
       
 <br><br>
